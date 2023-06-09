@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.repos {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.repos .get-repos {
+  background-color: #eee;
+  text-align: center;
+  width: 700px;
+  height: 70px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.repos .get-repos input {
+    height: 50px;
+    width: 550px;
+    padding: 10px;
+    border: none;
+}
+.repos .get-repos input:focus {
+    outline:2px solid orangered;
+}
+.repos .get-repos span {
+    background-color: orangered;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.show-data {
+    width: 700px;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+.show-data .ele-box {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.show-data .ele-box:not(:last-child) {
+    margin-bottom: 5px;
+}
+.show-data .ele-box span,
+.show-data .ele-box a {
+    padding: 5px;
+}
+.show-data .ele-box a {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: orchid;
+
+}
